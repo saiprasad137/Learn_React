@@ -3,16 +3,24 @@ import { useState } from 'react';
 import Button from './Button';
 function App() {
 
-  const [count , setCount] = useState(0);
+  // const [count , setCount] = useState(0);
 
-  const handleOnClick = () => {
-      setCount(count + 1)
-  }
+  // const handleOnClick = () => {
+  //     setCount(count + 1)
+  // }
   return (
     <div className="App">
-      <Button whichButton = {"first"}/>
-      <br />
-      <Button whichButton = {"second"}/>
+      <table style = {{}} width = "100%">
+        <tr>
+          <td>
+          <Button whichButton = {"first"}/>
+          </td>  
+          <td>
+          <Button whichButton = {"second"}/>
+          </td>  
+        </tr>
+        <br />
+      </table>
     </div>
   );
 }
