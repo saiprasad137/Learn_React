@@ -1,6 +1,8 @@
 import './App.css';
 import { useState } from 'react';
 import Button from './Button';
+import MyComponent from './MyComponent';
+
 function App() {
 
   // const [count , setCount] = useState(0);
@@ -18,6 +20,9 @@ function App() {
           <td>
           <Button whichButton = {"second"}/>
           </td>  
+          <td>
+            <MyComponent />
+          </td>
         </tr>
         <br />
       </table>
