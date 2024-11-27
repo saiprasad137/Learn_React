@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-export default class MyComponent extends React.Component {
+export default class MyComponent extends React.PureComponent {
 
   // 1).Constructor is called first when Page is reloaded.
     constructor(props) {
